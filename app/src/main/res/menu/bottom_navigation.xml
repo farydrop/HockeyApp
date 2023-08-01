@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="home" />
+    <item
+        android:id="@+id/nav_streaming"
+        android:icon="@drawable/ic_streaming"
+        android:title="live" />
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_info"
+        android:title="info" />
+
+    <item
+        android:id="@+id/nav_coins"
+        android:icon="@drawable/ic_coin"
+        android:title="coins" />
+
+</menu>

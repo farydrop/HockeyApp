@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">HockeyApp</string>
+    <string name="team_first">Buffalo Sabers</string>
+    <string name="team_second">Washington Capitals</string>
+    <string name="score_second">2</string>
+    <string name="score_first">1</string>
+    <string name="two_point">:</string>
+    <string name="october_25">October, 25</string>
+    <string name="games">Games</string>
+    <string name="teams">Teams</string>
+
+
+    <string name="team_coachella">Coachella Valley Firebirds</string>
+    <string name="team_bears">Hershey Bears</string>
+    <string name="team_milwaukee">Milwaukee Admirals</string>
+    <string name="team_rochester">Rochester Americans</string>
+    <string name="team_texas">Texas Stars</string>
+    <string name="team_calgary">Calgary Wranglers</string>
+    <string name="team_toronto">Toronto Marlies</string>
+    <string name="team_hartford">Hartford Wolf Pack</string>
+    <string name="team_manitoba">Manitoba Moose</string>
+
+    <string name="score_one">2 : 3</string>
+    <string name="score_two">1 : 0</string>
+    <string name="score_three">4 : 3</string>
+    <string name="score_four">0 : 1</string>
+    <string name="score_five">5 : 3</string>
+    <string name="score_six">2 : 3</string>
+    <string name="score_seven">6 : 5</string>
+    <string name="score_eight">8 : 4</string>
+    <string name="score_nine">1 : 3</string>
+    <string name="score_ten">2 : 1</string>
+
 </resources>
