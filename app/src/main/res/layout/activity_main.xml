@@ -13,8 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@drawable/calendar_background"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,7 +22,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp">
 
             <ImageView
                 android:id="@+id/ivPrevDayButton"
@@ -35,7 +36,8 @@
                 android:id="@+id/tvDayTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
                 android:text="@string/october_25"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -101,7 +103,7 @@
         app:layout_constraintBottom_toTopOf="@+id/bnvNav"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:listitem="@layout/game_item"/>
-    
+
     <nl.joery.animatedbottombar.AnimatedBottomBar
         android:id="@+id/bnvNav"
         android:layout_width="match_parent"
@@ -113,6 +115,7 @@
         app:abb_indicatorAppearance="round"
         app:abb_indicatorMargin="16dp"
         app:abb_indicatorHeight="4dp"
+        app:abb_tabAnimation="slide"
         app:abb_tabs="@menu/bottom_navigation"
         app:abb_selectedIndex="0"
         app:abb_indicatorColor="@color/primarySecond"

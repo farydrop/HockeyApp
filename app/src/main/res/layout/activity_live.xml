@@ -4,6 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.LiveActivity">
+    tools:context=".view.LiveActivity"
+    android:id="@+id/container">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="LIVE"/>
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+        android:id="@+id/bnvNav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:abb_selectedTabType="icon"
+        app:abb_indicatorAppearance="round"
+        app:abb_indicatorMargin="16dp"
+        app:abb_indicatorHeight="4dp"
+        app:abb_tabAnimation="slide"
+        app:abb_tabs="@menu/bottom_navigation"
+        app:abb_selectedIndex="0"
+        app:abb_indicatorColor="@color/primarySecond"
+        app:abb_tabColorSelected="@color/primarySecond"
+        app:abb_tabColor="@color/white"
+        android:background="@color/background"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
